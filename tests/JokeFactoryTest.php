@@ -25,7 +25,7 @@ class JokeFactoryTest extends TestCase
         $chuckNorrisJokes = [
             'Chuck Norris does not wear a condom. Because there is no such thing as protection from Chuck Norris.',
             'Chuck Norris is the reason why Waldo is hiding.',
-            'Chuck Norris can set ants on fire with a magnifying glass. At night.'
+            'Chuck Norris can set ants on fire with a magnifying glass. At night.',
         ];
 
         $jokes = new JokeFactory();
