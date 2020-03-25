@@ -13,6 +13,7 @@ class JokeFactory
     public function __construct(array $jokes = null)
     {
         if ($jokes) {
+
             $this->jokes = $jokes;
         }
     }
