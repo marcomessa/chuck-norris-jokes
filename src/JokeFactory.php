@@ -1,11 +1,13 @@
-<?php namespace MarcoMessa\ChuckNorrisJokes;
+<?php
+
+namespace MarcoMessa\ChuckNorrisJokes;
 
 class JokeFactory
 {
     protected $jokes = [
         'Chuck Norris does not wear a condom. Because there is no such thing as protection from Chuck Norris.',
         'Chuck Norris is the reason why Waldo is hiding.',
-        'Chuck Norris can set ants on fire with a magnifying glass. At night.'
+        'Chuck Norris can set ants on fire with a magnifying glass. At night.',
     ];
 
     public function __construct(array $jokes = null)
@@ -19,6 +21,4 @@ class JokeFactory
     {
         return $this->jokes[array_rand($this->jokes)];
     }
-
-
 }
