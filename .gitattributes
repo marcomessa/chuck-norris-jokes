@@ -1,0 +1,6 @@
+/.gitignore export-ignore
+/.travis.yml    export-ignore
+/.stylecs.yml   export-ignore
+/tests  export-ignore
+/phpunit.xml.dist   export-ignore
+/.gitattrbiutes export-ignore
